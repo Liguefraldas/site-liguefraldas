@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ligue Fraldas Geriátricas</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Inter', sans-serif;
       text-align: center;
-      background-color: #f0f4f8;
+      background-color: #ADD8E6;
       padding: 30px;
       color: #333;
     }
-    img {
+    .logo {
       width: 180px;
-      margin-bottom: 10px;
+      margin: 10px auto 20px;
+      background-color: white;
+      padding: 10px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
     h1 {
-      font-size: 24px;
-      margin-bottom: 5px;
+      font-size: 26px;
+      margin: 10px 0 5px;
     }
     p {
       font-size: 16px;
       margin-bottom: 30px;
-      color: #555;
+      color: #444;
     }
     .button {
       display: block;
@@ -42,20 +45,36 @@
     .whatsapp { background-color: #25D366; }
     .instagram { background-color: #C13584; }
     .facebook { background-color: #1877F2; }
-    .maps { background-color: #ea4335; }
+    .maps { background-color: #EA4335; }
     .button:hover {
       opacity: 0.9;
+    }
+    iframe {
+      margin-top: 30px;
+      width: 100%;
+      max-width: 600px;
+      height: 300px;
+      border: 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
-  <img src="logo_liguefraldas.png" alt="Logo Ligue Fraldas Geriátricas">
+  <img src="logo_liguefraldas.png" alt="Logo Ligue Fraldas Geriátricas" class="logo">
   <h1>Ligue Fraldas Geriátricas</h1>
   <p>Atendimento humanizado e o melhor preço!</p>
 
   <a class="button whatsapp" href="https://wa.me/5521972130393" target="_blank">WhatsApp</a>
   <a class="button instagram" href="https://instagram.com/liguefraldas" target="_blank">Instagram</a>
   <a class="button facebook" href="https://www.facebook.com/share/12HH16DxUQT/?mibextid=wwXIfr" target="_blank">Facebook</a>
-  <a class="button maps" href="https://www.google.com/maps/search/?api=1&query=Rua+Alexandre+Calaza+53,+Vila+Isabel,+Rio+de+Janeiro" target="_blank">Ver no Google Maps</a>
+  <a class="button maps" href="https://www.google.com/maps/search/?api=1&query=Rua+Alexandre+Calaza+53,+Vila+Isabel,+Rio+de+Janeiro" target="_blank">Abrir no Google Maps</a>
+
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.754993854528!2d-43.257445!3d-22.958904999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997eaa2d1549cd%3A0xa354e2ea93bfa47d!2sR.%20Alexandre%20Calaza%2C%2053%20-%20Vila%20Isabel%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1712850812345"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
 </body>
 </html>
